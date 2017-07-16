@@ -16,6 +16,5 @@ module.exports = function(storybookConfig, configType) {
     ".ts",
     ".tsx",
   ];
-
   return storybookConfig;
 };
