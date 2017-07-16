@@ -21,10 +21,10 @@ storiesOf("File Uploader", module)
   )
   .add("File preview for image", () => 
     <FilePreview 
-      name="IMG_20161223_125428585.jpg" 
+      name="P1110826.JPG"
       mimeType="image/jpeg"
       bytes={2855173}
-      url="IMG_20161223_125428585.jpg" 
+      url="P1110826.JPG" 
     />
   )
   .add("File preview for txt file", () => 
