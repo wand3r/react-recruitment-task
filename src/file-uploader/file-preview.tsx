@@ -62,7 +62,8 @@ export class FilePreview extends React.Component<FilePreviewProps, FilePreviewSt
       >
         <span>{name}</span>
         <span>{size}</span>
-        <span>{mimeType}</span>
+        {!isImage &&
+          <span>{mimeType}</span>}
         {originalImageSize && 
           <span>
             {originalImageSize.width}px x {originalImageSize.height}px

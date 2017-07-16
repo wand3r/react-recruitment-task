@@ -8,6 +8,7 @@ import { Button } from "../common/button";
 import { FilePreview } from "./file-preview";
 import { ItemsList } from "../common/items-list";
 import { style as button } from "../common/button";
+import { fontFamily } from "../theme/index";
 
 const style = {
   fontColor: "white",
@@ -42,6 +43,7 @@ const FileInfoLabel = ({ label }: { label: string }) =>
       flex: 1,
       display: "flex",
       alignItems: "center",
+      fontFamily,
       padding: button.padding,
       background: style.labelBackground,
     })}
